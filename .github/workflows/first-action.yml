@@ -1,0 +1,10 @@
+name: first workflow
+on: workflow_dispatch
+jobs: 
+  first-job:
+    runs-on: macos-latest
+    steps: 
+      - name: dummy first step
+        run: echo "dummy first"
+      - name: dummy second step
+        run: echo "dummy second"
